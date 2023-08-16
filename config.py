@@ -22,21 +22,8 @@ class Config(object):
         # Dataset
         assert(dataset_name in ['volleyball', 'collective', 'JRDB'])
         self.dataset_name = dataset_name
-        
-        if dataset_name == 'volleyball':
-            self.data_path = '/home/mahsa/Downloads/Group-Activity-Recognition-master/data/volleyball'
-            self.train_seqs = [1, 3, 6, 7,10,13,15,16,18,22,23,31,32,36,38,39,40,41,42,48,50,52,53,54, 0,2,8,12,17,19,24,26,27,28,30,33,46,49,51]
-            self.test_seqs = [4,5,9,11,14,20,21,25,29,34,35,37,43,44,45,47]
 
-        elif dataset_name == 'collective':
-            #self.data_path = '/fast/users/a1224560/group_activity/collective'
-            self.data_path = '/home/mahsa/Downloads/Group-Activity-Recognition-master/data/collective'
-            # self.test_seqs = [5,6,7,8,9,10,11,15,16,25,28,29]
-            # self.train_seqs = [s for s in range(1, 45) if s not in self.test_seqs]
-            self.train_seqs = [1]
-            self.test_seqs = [1]
-
-        elif dataset_name == 'JRDB':
+        if dataset_name == 'JRDB':
             self.train_annot_path = '/media/fitadmin/HDD/Simin/JRDB_Dataset/JRDB2019/Train/train_labels/labels/labels_2d_stitched'
             self.test_annot_path = '/media/fitadmin/HDD/Simin/JRDB_Dataset/JRDB2019/Test/test_images/images/image_stitched'
 
