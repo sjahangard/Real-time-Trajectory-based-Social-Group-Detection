@@ -4,4 +4,19 @@ This repository contains code and resources for the paper titled "Real-time Traj
 To see the paper please refer to this link https://arxiv.org/pdf/2304.05678
 
  
-For inquiries, please contact simindokht.jahangard@monash.edu
+
+Install the requirements using `pip`:
+```
+pip install -r requirements.txt
+```
+
+### Requirements
+
+- pytorch
+- pillow
+- tensorboard
+- progress
+
+## Support
+
+For support, please contact simindokht.jahangard@monash.edu
