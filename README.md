@@ -1,2 +1,2 @@
-# code_IROS
+\maketitle Real-time Trajectory-based Social Group Detection
  
