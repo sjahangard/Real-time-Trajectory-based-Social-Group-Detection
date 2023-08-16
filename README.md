@@ -8,7 +8,7 @@ To see the paper please refer to this link https://arxiv.org/pdf/2304.05678
 Clone the repo:
 
 ```
-git clone https://github.com/evendrow/somoformer.git
+git clone [https://github.com/evendrow/somoformer.git](https://github.com/sjahangard/Real-time-Trajectory-based-Social-Group-Detection.git)
 ```
 
 
