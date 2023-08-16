@@ -17,12 +17,13 @@ Install the requirements using `pip`:
 pip install -r requirements.txt
 ```
 
-### Requirements
+## Training
 
-- pytorch
-- pillow
-- tensorboard
-- progress
+To train the model 
+```
+python train.py 
+```
+
 
 ## Support
 
