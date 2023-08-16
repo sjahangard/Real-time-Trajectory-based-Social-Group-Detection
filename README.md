@@ -1,2 +1,2 @@
-\maketitle Real-time Trajectory-based Social Group Detection
+@Real-time Trajectory-based Social Group Detection
  
